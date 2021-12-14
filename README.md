@@ -1,6 +1,6 @@
 # 20 React: React Portfolio
 
-## Your Task
+## Description
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
 
@@ -9,6 +9,10 @@ Your task is to create a portfolio using your new React skills, which will help 
 You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
 
 **Important:** Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+
+## Links
+GitHub Repo: <br>
+Deployed App: 
 
 ## User Story
 
@@ -59,7 +63,11 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## Mock-Up
+## Screenshots
+
+## Technologies Used
+
+## Contact
 
 
 ## Getting Started
