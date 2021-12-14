@@ -6,4 +6,11 @@
   font-family:  'Josefin Sans', sans-serif;;
 }
 
+:root {
+  --dark: black;
+  --light: #71A9F7;
+  --accent: #072AC8;
+  --white: #fff;
+}
+
 
