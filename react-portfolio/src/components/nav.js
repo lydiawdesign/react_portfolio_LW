@@ -1,6 +1,6 @@
 import React from 'react'
 
-function nav() {
+function Nav() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
@@ -33,4 +33,4 @@ function nav() {
     )
 }
 
-export default nav
+export default Nav;

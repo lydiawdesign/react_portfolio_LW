@@ -45,7 +45,6 @@ function Form() {
 
   return (
     <div>
-      <p>Hello {name}</p>
       <form className="form">
         <input
           value={email}

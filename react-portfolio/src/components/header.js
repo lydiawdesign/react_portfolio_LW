@@ -1,14 +1,27 @@
-import React from 'react'
+import React from 'react';
+import image from '../img/hero_final.png';
 
-
-export const header = () => {
+  
+export const Header = () => {
     return (
-        <div className="header-container">
-            <div className="main-info">
-                <h1>Hi, I'm Lydia! Nice to meet ya!</h1>
+
+        <div className="">
+            <img src={image} alt="" className="position-absolute"
+            />
+            <div className="">
+                <h1 className="text-center font-weight-bold">
+                    Hi, I'm Lydia! Nice to meet ya!
+                </h1>
             </div>
-        </div>
+      </div>
     );
 }
 
-export default header
+export default Header;
+
+
+
+
+
+
+
