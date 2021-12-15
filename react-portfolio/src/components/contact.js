@@ -1,27 +1,50 @@
-// import React from 'react'
+import React, { useState } from 'react';
 
+function Form() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
 
-// export const contact = () => {
-//     return (
-//         <div>
-//             <Form>
-//                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-//                     <Form.Label>Name</Form.Label>
-//                     <Form.Control as="textarea" rows={3} />
-//                 </Form.Group>
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { name, value } = e.target;
 
-//                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-//                     <Form.Label>Email address</Form.Label>
-//                     <Form.Control type="email" placeholder="name@example.com" />
-//                 </Form.Group>
+    // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
+    return name === 'firstName' ? setFirstName(value) : setLastName(value);
+  };
 
-//                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-//                     <Form.Label>Message</Form.Label>
-//                     <Form.Control as="textarea" rows={3} />
-//                 </Form.Group>
-//             </Form>
-//         </div>
-//     )
-// }
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    e.preventDefault();
 
-// export default contact;
+    // Alert the user their first and last name, clear the inputs
+    alert(`Can't wait to hear from you ${firstName}!`);
+    setFirstName('');
+    setLastName('');
+  };
+
+  return (
+    <div>
+      <form className="form">
+        <input
+          value={firstName}
+          name="firstName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="First Name"
+        />
+        <input
+          value={lastName}
+          name="lastName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Last Name"
+        />
+        <button type="button" onClick={handleFormSubmit}>
+          Send it!
+        </button>
+      </form>
+    </div>
+  );
+}
+
+export default Form;
