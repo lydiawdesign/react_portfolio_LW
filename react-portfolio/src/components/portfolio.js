@@ -8,8 +8,8 @@ import musicReview from '../img/music review.png';
 export const Portfolio = () => {
     return (
         <>
-            <div className="container py-5" id="portfolio">
-
+            <div className="container p-5" id="portfolio">
+            <h1 className='text-center p-4'>Portfolio</h1>
                 <div className="row g-3">
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="card text-center">

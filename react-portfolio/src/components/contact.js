@@ -9,7 +9,7 @@ export const Contact = () => {
     return (
         <div className='container'>
 
-                <Container fluid className="shadow bg-dark m-3">
+                <Container fluid className="shadow bg-dark m-3" id="contact">
                     <Container>
                     <h1 className='text-center text-light bg-dark p-4'>Let's talk?</h1>
                         <Row>

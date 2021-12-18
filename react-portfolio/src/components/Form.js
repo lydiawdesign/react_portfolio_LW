@@ -67,7 +67,7 @@ function Form() {
           type="text"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>Full Send</button>
+        <button type="button" onClick={handleFormSubmit}>Send</button>
       </form>
 
       {errorMessage && (
