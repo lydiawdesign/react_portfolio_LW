@@ -22,18 +22,13 @@
 
 /* HEADER STYLING */
 
-.header-wrapper {
-  position: relative;
-  height: 90vh;
-  background-position: center;
-  background-size: cover;
+#lead {
+  font-size: 1.125rem
 }
 
 /* FOOTER STYLING */
 
-#social-icons{
-  margin-top: auto !important;
-  margin-bottom: auto !important;
-  min-height: 15vh !important;
-  align-content: center;
+#footer {
+  background-color: var(--accent);
+  color: var(--white)
 }
