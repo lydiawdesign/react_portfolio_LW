@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/lydiawdesign/react_portfolio_LW/static/css/main.0183e5aa.chunk.css",
+    "main.js": "/lydiawdesign/react_portfolio_LW/static/js/main.b133812c.chunk.js",
+    "main.js.map": "/lydiawdesign/react_portfolio_LW/static/js/main.b133812c.chunk.js.map",
+    "runtime-main.js": "/lydiawdesign/react_portfolio_LW/static/js/runtime-main.da81ec8e.js",
+    "runtime-main.js.map": "/lydiawdesign/react_portfolio_LW/static/js/runtime-main.da81ec8e.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/lydiawdesign/react_portfolio_LW/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.b7da420e.chunk.js": "/lydiawdesign/react_portfolio_LW/static/js/2.b7da420e.chunk.js",
+    "static/js/2.b7da420e.chunk.js.map": "/lydiawdesign/react_portfolio_LW/static/js/2.b7da420e.chunk.js.map",
+    "index.html": "/lydiawdesign/react_portfolio_LW/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/lydiawdesign/react_portfolio_LW/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.0183e5aa.chunk.css.map": "/lydiawdesign/react_portfolio_LW/static/css/main.0183e5aa.chunk.css.map",
+    "static/js/2.b7da420e.chunk.js.LICENSE.txt": "/lydiawdesign/react_portfolio_LW/static/js/2.b7da420e.chunk.js.LICENSE.txt",
+    "static/media/Groovy Movie Results Screenshot.b4a8ea55.jpg": "/lydiawdesign/react_portfolio_LW/static/media/Groovy Movie Results Screenshot.b4a8ea55.jpg",
+    "static/media/about_img.11f7ab48.jpg": "/lydiawdesign/react_portfolio_LW/static/media/about_img.11f7ab48.jpg",
+    "static/media/ecommerce.cb9b8b4c.png": "/lydiawdesign/react_portfolio_LW/static/media/ecommerce.cb9b8b4c.png",
+    "static/media/music review.f1957e5b.png": "/lydiawdesign/react_portfolio_LW/static/media/music review.f1957e5b.png",
+    "static/media/noteTaker.26953de1.png": "/lydiawdesign/react_portfolio_LW/static/media/noteTaker.26953de1.png",
+    "static/media/password generator screenshot.09ed9012.jpg": "/lydiawdesign/react_portfolio_LW/static/media/password generator screenshot.09ed9012.jpg",
+    "static/media/teamGen.446c5802.png": "/lydiawdesign/react_portfolio_LW/static/media/teamGen.446c5802.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da81ec8e.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.b7da420e.chunk.js",
+    "static/css/main.0183e5aa.chunk.css",
+    "static/js/main.b133812c.chunk.js"
+  ]
+}
