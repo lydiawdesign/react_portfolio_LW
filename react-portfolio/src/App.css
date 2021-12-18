@@ -22,8 +22,8 @@
 
 /* HEADER STYLING */
 
-#lead {
-  font-size: 1.125rem
+#heroColor {
+  background-color: var(--light) ! important ;
 }
 
 /* FOOTER STYLING */
