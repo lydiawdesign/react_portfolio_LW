@@ -18,8 +18,8 @@ export const Header = () => {
                         <h1 className="display-4 fw-bold lh-1 mb-3">Hi, I'm Lydia! Nice to meet ya!</h1>
                         <p className="lead">Website and Product data manager with experience in Marketing, Design, and Web Development. Lydia is currently earning a certificate in full-stack development from the Coding Bootcamp Program at the Ohio State University, with newly developed skills in JavaScript, CSS, APIs, and responsive web design. She is known to be an avid troubleshooter, a precise problem solver, and a creative thinker. </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" className="btn btn-dark btn-lg px-4 me-md-2" href="react-portfolio\src\img\Lydia Williamson Resume 2021 September Updated.pdf" download="Lydia Williamson's Resume">Download Resume</button>
-                            <button type="button" className="btn btn-outline-secondary btn-lg px-4" href="https://github.com/lydiawdesign">View GitHub</button>
+                            <a type="button" className="btn btn-dark btn-lg px-4 me-md-2" href="react-portfolio\src\img\Lydia Williamson Resume 2021 September Updated.pdf" download="Lydia Williamson's Resume">Download Resume</a>
+                            <a target ="_blank" type="button" className="btn btn-outline-secondary btn-lg px-4" href="https://github.com/lydiawdesign" >View GitHub</a>
                         </div>
                     </div>
                 </div>

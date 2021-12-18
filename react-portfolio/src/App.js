@@ -8,7 +8,7 @@ import NavBar from './components/Nav';
 import Header from './components/Header';
 import About from './components/About'
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Contact from './components/Form';
 import Footer from './components/Footer';
 
 function App() {

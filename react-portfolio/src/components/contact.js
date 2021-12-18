@@ -1,83 +1,60 @@
-import React, { useState } from 'react';
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import ContactForm from '../components/contact-form';
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import '../App.css';
 
-// check if the email is valid
-import { validateEmail } from '../utils/helper';
+export const Contact = () => {
+    return (
+        <div className='container'>
+                <Jumbotron fluid className="p-5 mb-0">
+                    <Container className="text-center">
+                        <div className="p-md-5">
+                            <h1>Contact Me</h1>
+                        </div>
+                    </Container>
+                </Jumbotron>
 
-function Form() {
-  // Create state variables for the fields in the form
-  // We are also setting their initial values to an empty string
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+                <Container fluid className="shadow bg-light mb-5">
+                    <Container className="p-4">
+                        <Row>
+                            <Col>
+                                <Container>
+                                    <h4>Contact Info</h4>
+                                    <p>
+                                        <a href="mailto:lydiawdesign.com">
+                                            <span className="pr-3">
+                                                <FaEnvelope />
+                                            </span>
+                                            lydiawdesign.com
+                                        </a>
+                                    </p>
+                                    
+                                    <p>
+                                        <a href="https://github.com/lydiawdesign" target='_blank' rel="noreferrer">
+                                            <span className="pr-3">
+                                                <FaGithub />
+                                            </span>
+                                            lydiawdesign
+                                        </a>
+                                    </p>
+                                </Container>
+                            </Col>
 
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    // Based on the input type, we set the state of either email, username, and password
-    if (inputType === 'email') {
-      setEmail(inputValue);
-    } else if (inputType === 'name') {
-      setName(inputValue);
-    } else {
-        setMessage(inputValue);
-    }
-  };
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-
-    // check if email is not valid-  If so , an error message will display
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Please double check that, it looks like your email or name is not correct.');
-      return;
-    }
-  
-    alert(`Thanks for reaching out ${name}`);
-
-    setEmail('');
-    setName('');
-    setMessage('');
-  };
-
-  return (
-    <div>
-      <form className="form">
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="message"
-        />
-        <button type="button" onClick={handleFormSubmit}>Full Send</button>
-      </form>
-
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
-    </div>
-  );
+                            <Col sm={12} md={6} lg={8} className="pt-sm-4 pt-lg-0">
+                                <Container>
+                                    <h4>Send a Message</h4>
+                                    <ContactForm />
+                                </Container>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Container>
+            </div>
+    )
 }
 
-export default Form;
-
+export default Contact;

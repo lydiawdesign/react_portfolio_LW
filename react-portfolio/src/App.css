@@ -15,10 +15,6 @@
 
 /* NAVBAR STYLING */
 
-/* .navbar-nav > li > a.active. .navbar-nav > li > a:focus {
-  border-bottom-color: var(--accent);
-  border-bottom: 3px solid;
-} */
 
 /* HEADER STYLING */
 
@@ -32,3 +28,5 @@
   background-color: var(--accent);
   color: var(--white)
 }
+
+
