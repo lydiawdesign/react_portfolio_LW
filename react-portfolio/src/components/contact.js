@@ -27,6 +27,9 @@ export const Contact = () => {
                                              lydiawdesign
                                         </a>
                                     </p>
+
+                                    <p className='text-light bg-dark'>Phone: (513) 755-7892
+                                    </p>
                                 </Container>
                             </Col>
 

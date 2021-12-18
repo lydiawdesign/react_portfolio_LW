@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../App.css';
 
 // check if the email is valid
 import { validateEmail } from '../utils/helper';
@@ -45,8 +46,9 @@ function Form() {
 
   return (
     <div>
-      <form className="form">
+      <form className="form m-3">
         <input
+          className='form-control m-2'
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -54,6 +56,7 @@ function Form() {
           placeholder="email"
         />
         <input
+          className='form-control m-2'
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -61,21 +64,24 @@ function Form() {
           placeholder="name"
         />
         <input
+          className='form-control m-2'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>Send</button>
+        
+        <button className="btn btn-outline-light" type="button" onClick={handleFormSubmit}>Send</button>
       </form>
 
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text text-light">{errorMessage}</p>
         </div>
       )}
     </div>
+
   );
 }
 

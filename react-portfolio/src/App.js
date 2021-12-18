@@ -6,10 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Importing components
 import NavBar from './components/Nav';
 import Header from './components/Header';
-import About from './components/About'
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Form from './components/Form';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,7 +15,6 @@ function App() {
     <div className="App">
        < NavBar />
        < Header />
-       {/* < About /> */}
        < Portfolio /> 
        < Contact />
        < Footer /> 

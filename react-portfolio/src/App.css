@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:  'Josefin Sans', sans-serif;;
+  font-family:  'Josefin Sans', sans-serif;
 }
 
 :root {
@@ -14,13 +14,13 @@
 }
 
 /* NAVBAR STYLING */
-
+#backgroundColor {
+  background-color: var(--light);
+  color: var(--accent);
+}
 
 /* HEADER STYLING */
 
-#heroColor {
-  background-color: var(--light) ! important ;
-}
 
 /* FOOTER STYLING */
 
