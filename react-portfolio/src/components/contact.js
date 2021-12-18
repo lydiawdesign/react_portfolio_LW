@@ -11,19 +11,19 @@ export const Contact = () => {
 
                 <Container fluid className="shadow bg-dark m-3" id="contact">
                     <Container>
-                    <h1 className='text-center text-light bg-dark p-4'>Let's talk?</h1>
+                    <h1 className='text-center text-light bg-dark p-4' id="contactText">Let's talk?</h1>
                         <Row>
                             <Col>
                                 <Container>
                                     <h4 className='text-light bg-dark'>Contact Info</h4>
                                     <p className='text-light bg-dark'>Email: &nbsp;
-                                        <a href="mailto:lydiawdesign.com">
+                                        <a href="mailto:lydiawdesign.com" className= "text-reset">
                                              lydiawdesign.com
                                         </a>
                                     </p>
                                     
                                     <p className='text-light bg-dark'>GitHub: &nbsp;
-                                        <a href="https://github.com/lydiawdesign" target='_blank' rel="noreferrer">
+                                        <a href="https://github.com/lydiawdesign" target='_blank' rel="noreferrer" className= "text-reset">
                                              lydiawdesign
                                         </a>
                                     </p>

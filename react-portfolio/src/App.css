@@ -19,8 +19,10 @@
   color: var(--accent);
 }
 
-/* HEADER STYLING */
-
+/* CONTACT STYLING */
+#contactText{
+  color: var(--light) !important;
+}
 
 /* FOOTER STYLING */
 
