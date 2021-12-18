@@ -27,7 +27,7 @@ function Nav() {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="react-portfolio\src\img\LydiaWilliamsonResumeUpdated.pdf">Resume</a>
+                            <a className="nav-link" href="./img/LWResume.pdf">Resume</a>
                         </li>
                     </ul>
 

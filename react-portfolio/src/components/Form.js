@@ -32,8 +32,8 @@ function Form() {
     e.preventDefault();
 
     // check if email is not valid-  If so , an error message will display
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Please double check that, it looks like your email or name is not correct.');
+    if (!validateEmail(email) || !name || !message) {
+      setErrorMessage('Please double check that, please make sure your email address is correct and that each field is filled out.');
       return;
     }
   
@@ -77,7 +77,7 @@ function Form() {
 
       {errorMessage && (
         <div>
-          <p className="error-text text-light">{errorMessage}</p>
+          <p className="error-text text-danger">{errorMessage}</p>
         </div>
       )}
     </div>
